@@ -20,10 +20,6 @@ import javax.swing.JOptionPane;
 import javax.swing.Timer;
 
 public class TypePlatform extends javax.swing.JFrame {
-
-    /**
-     * Creates new form TypePlatform
-     */
     private static Color defaultColor;
     private JButton active;
     private boolean buttonPressed = false;

@@ -21,4 +21,4 @@ public class PlatformTest {
         pl.setSize(700, 500);
         pl.setVisible(true);
     }
-}
+}   
