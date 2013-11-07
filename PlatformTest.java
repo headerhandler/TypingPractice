@@ -1,12 +1,3 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author OLUWATOBI ODUAH
- */
 public class PlatformTest {
     public static void main(String[] args)
     {
@@ -27,6 +18,7 @@ public class PlatformTest {
             java.util.logging.Logger.getLogger(TypePlatform.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         TypePlatform pl = new TypePlatform();
+        pl.setSize(700, 500);
         pl.setVisible(true);
     }
 }
